@@ -25,10 +25,11 @@ window.addEventListener('onWidgetLoad', function (obj) {
   container.hide()
 
   // populating the rotator
-  images.forEach(function (item, index) {
-    container.append("<img src='" + item + "'/> ")
-    console.log(index + ' Inserted img with url: ' + item)
-  })
+  // populating the rotator
+  images.forEach(function(item, index){
+    container.append("<div class='wrapper'><img src='"+ item + "'/> ")
+    console.log (index + ' Inserted img with url: ' + item);
+  });
 
   // creating the rotator
   const slider = simpleslider.getSlider({
