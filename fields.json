@@ -1,0 +1,31 @@
+{
+  "images": {
+    "type": "image-input",
+    "label": "Images to display",
+    "multiple": true
+  },
+  "time_between_images": {
+    "type": "number",
+    "label": "Time between images (ms)",
+    "value": 180000,
+    "min": 0,
+    "max": 1000000000,
+    "step": 1000
+  },
+  "time_to_display": {
+    "type": "number",
+    "label": "Time to show image (ms)",
+    "value": 7000,
+    "min": 0,
+    "max": 1000000000,
+    "step": 1000
+  },
+  "time_to_animate": {
+    "type": "number",
+    "label": "Time to animate (ms)",
+    "value": 500,
+    "min": 0,
+    "max": 1000000000,
+    "step": 100
+  }
+}
